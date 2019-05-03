@@ -7,6 +7,7 @@ Netbeans was used for running this project.
       It can be downloaded by using the following link:
       https://netbeans.org/downloads/8.0.2
      
+This project is terminal/console based except graphical User Interface
 Question Description:
 
              The chat system
@@ -168,24 +169,5 @@ Question Description:
         in figure 7. If it is used locally the address has to be the following:
         http://localhost:9090.
         
-        4 Conclusion
-        With this application the possibilities of Java using TCP and Multicast
-        have been shown. Java provides an easy to use interface for networking.
-        The system that has been implemented is far from being perfect. The
-        graphical user interface of the client is minimalistic. The server only
-        prints some information to stdout. But since the focus of this assignment
-        has been on networking there was no great attention drawn to other
-        parts. A problem of this solution is that only one client can be run
-        on each host, because the port number the client binds to is the same
-        on all clients. That is the reason why no load test of the system can
-        be performed using only a single machine. A possibility to solve this
-        would be to try to connect to a port first and change the port if needed
-        and then send it with the multicast to the server. The limitation of
-        the server is the maximum number of threads that can be started and
-        the maximum number of connections the system allows. Normally the
-        maximum number of connections on a Linux system is about 4000. What
-        could be changed too is the whole connection procedure. Using multicast
-        doesn’t allow to leave the local subnet because multicasts are not routed.
-        Instead the server could just listen to a normal port using TCP. The only
-        disadvantage would be that the client has to know the server’s address.
+        
         
