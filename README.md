@@ -169,5 +169,6 @@ Question Description:
         in figure 7. If it is used locally the address has to be the following:
         http://localhost:9090.
         
-        
-        
+#How to Run code
+         
+         Kindly run the whole project in net beans than firstly run the servver side code. After that run client side code and conversing between each other.
