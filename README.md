@@ -171,4 +171,4 @@ Question Description:
         
 #How to Run code
          
-         Kindly run the whole project in net beans than firstly run the servver side code. After that run client side code and conversing between each other.
+         Kindly run the whole project in NetBeans IDE than firstly run the servver side code. After that run client side code and conversing between each other.
