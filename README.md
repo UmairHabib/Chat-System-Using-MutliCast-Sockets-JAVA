@@ -170,5 +170,10 @@ Question Description:
         http://localhost:9090.
         
 #How to Run code
-         
-         Kindly run the whole project in NetBeans IDE than firstly run the servver side code. After that run client side code and conversing between each other.
+
+ You can run this program on Netbeans IDE in virtually created Ubuntu.
+
+            You can download Netbeans from the given link:
+            https://netbeans.org/downloads/8.0.2/
+            
+Kindly run the whole project in NetBeans IDE than firstly run the server side code. After that, run client side code and start conversing between each other.
